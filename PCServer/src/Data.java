@@ -4,19 +4,19 @@ public class Data {
 
 	public String js[] = {
 			"javascript:var ele = document.getElementById(\"mem-tel\");"+"ele.value = 13538805451;"		//1
-			+"var ele = document.getElementById(\"get-code\");" +"ele.click();"+"window.js.showToast(\"hello\");",
+			+"var ele = document.getElementById(\"get-code\");" +"ele.click();"+"Javacsript:something.sayHi();",
 			
 			"javascript:var ele = document.getElementById(\"signmobile\");"+"ele.value = 13538805451;"		//3
-			+"var ele = document.getElementById(\"sendcode\");"+"ele.click();"+"window.js.showToast(\"hello\")",
+			+"var ele = document.getElementById(\"sendcode\");"+"ele.click();"+"Javacsript:something.sayHi();",
 			
 			"javascript:var ele = document.getElementById(\"mobile\");"+"ele.value = 13538805451;"		//4
-			+"var ele = document.getElementById(\"get_checkcode\");"+"ele.click();"+"window.js.showToast(\"hello3\");",
+			+"var ele = document.getElementById(\"get_checkcode\");"+"ele.click();"+"Javacsript:something.sayHi();",
 			"",		//5
 			"javascript:var ele = document.getElementById(\"ContentPlaceHolder1_txtMobile\");"+"ele.value = 13538805451;"		//6
-			+"var ele = document.getElementById(\"getmcode\");"+"ele.click();"+"window.js.showToast(\"hello2\");",
+			+"var ele = document.getElementById(\"getmcode\");"+"ele.click();"+"Javacsript:something.sayHi();",
 			
 			"javascript:var ele = document.getElementById(\"mobileIpt\");"+"ele.value = 13538805451;"		//7
-			+"var ele = document.getElementById(\"sendAcodeStg\");"+"ele.click();"+"window.js.showToast(\"hello1\");",
+			+"var ele = document.getElementById(\"sendAcodeStg\");"+"ele.click();"+"Javacsript:something.sayHi();",
 			
 			"javascript:var ele = document.getElementById(\"mobile\");"+"ele.value = 13538805451;"		//8
 			+"var ele = document.getElementById(\"sendtomobile\");"+"ele.click();",
