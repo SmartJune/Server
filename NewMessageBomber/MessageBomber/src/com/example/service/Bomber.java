@@ -61,7 +61,7 @@ public class Bomber extends Thread {
 				e1.printStackTrace();
 			}			
 			String finalString = replaceString(contentString, "13538805451", phoneNumber);
-			System.out.println(finalString);
+		//	System.out.println(finalString);
 			a = finalString.split("\\*");
 			bomb(webView, a[0]);
 			try {
