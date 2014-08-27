@@ -4,104 +4,105 @@ public class Data {
 
 	public String js[] = {
 			"javascript:var ele = document.getElementById(\"mem-tel\");"+"ele.value = 13538805451;"		//1
-			+"var ele = document.getElementById(\"get-code\");" +"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"get-code\");" +"ele.click();"+"something.used(window.location.href);",
 			
 			"javascript:var ele = document.getElementById(\"signmobile\");"+"ele.value = 13538805451;"		//3
-			+"var ele = document.getElementById(\"sendcode\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"sendcode\");"+"ele.click();"+"something.used(window.location.href);",
 			
 			"javascript:var ele = document.getElementById(\"mobile\");"+"ele.value = 13538805451;"		//4
-			+"var ele = document.getElementById(\"get_checkcode\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"get_checkcode\");"+"ele.click();"+"something.used(window.location.href);",
 			"",		//5
 			"javascript:var ele = document.getElementById(\"ContentPlaceHolder1_txtMobile\");"+"ele.value = 13538805451;"		//6
-			+"var ele = document.getElementById(\"getmcode\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"getmcode\");"+"ele.click();"+"something.used(window.location.href);",
 			
 			"javascript:var ele = document.getElementById(\"mobileIpt\");"+"ele.value = 13538805451;"		//7
-			+"var ele = document.getElementById(\"sendAcodeStg\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"sendAcodeStg\");"+"ele.click();"+"something.used(window.location.href);",
 			
 			"javascript:var ele = document.getElementById(\"mobile\");"+"ele.value = 13538805451;"		//8
-			+"var ele = document.getElementById(\"sendtomobile\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"sendtomobile\");"+"ele.click();"+"something.used(window.location.href);",
 			
 			"javascript:var ele =document.getElementById(\"mobile_account\");"+"ele.value = 13538805451;"		//9
-			+"var ele = document.getElementById(\"btn_send_sms\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"btn_send_sms\");"+"ele.click();"+"something.used(window.location.href);",
 			
 			"javascript:var ele = document.getElementById(\"userName\");ele.value = 1235645321871329764912;"+"var ele = document.getElementById(\"mobile\");"+"ele.value = 13538805451;"		//10
-			+"var ele = document.getElementById(\"getmCheck\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"getmCheck\");"+"ele.click();"+"something.used(window.location.href);",
 			
 			"javascript:var ele = document.getElementById(\"phoneReg\");"+"ele.value = 13538805451;"		//12
-			+"var ele = document.getElementById(\"getAuthcode\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"getAuthcode\");"+"ele.click();"+"something.used(window.location.href);",
 			
 			"javascript:var ele = document.getElementById(\"txtRegUser\");"+"ele.value = 124623974;"+"var ele = document.getElementById(\"" +
-			"txtMobile\");"+"ele.value = 13538805451;"+"var ele = document.getElementById(\"btnsend\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",		//13
+			"txtMobile\");"+"ele.value = 13538805451;"+"var ele = document.getElementById(\"btnsend\");"+"ele.click();"+"something.used(window.location.href);",		//13
 			
 			"javascript:var ele = document.getElementById(\"iphone\");"+"ele.value = 13538805451;"		//14
-			+"var ele = document.getElementById(\"phoneMsg\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"phoneMsg\");"+"ele.click();"+"something.used(window.location.href);",
 			
 			"javascript:var ele = document.getElementById(\"mobilePhoneF\");"+"ele.value = 13538805451;"		//15
-			+"var ele = document.getElementById(\"verifyCodeBtnF\");"+"ele.click();"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"verifyCodeBtnF\");"+"ele.click();"+"ele.click();"+"something.used(window.location.href);",
 			
 			"javascript:var ele = document.getElementById(\"mobile\");"+"ele.value = 13538805451;"		//16
-			+"var ele = document.getElementById(\"SendMobile\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"SendMobile\");"+"ele.click();"+"something.used(window.location.href);",
 			
 			"javascript:var ele = document.getElementById(\"user_name\");"+"ele.value = 13538805451;ele.onbeforepaste();"		//17
-			+"var ele = document.getElementById(\"sendcode\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"sendcode\");"+"ele.click();"+"something.used(window.location.href);",
 	
 			"javascript:var ele = document.getElementById(\"txtEMail\");ele.value = \"552136123@qq.com\";var ele = document.getElementById(\"txtTel1\");"+"ele.value = 13538805451;"		//18
-			+"var ele = document.getElementById(\"timer0Button\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"timer0Button\");"+"ele.click();"+"something.used(window.location.href);",
 			
 	//		"javascript:var ele = document.getElementById(\"mobile\");"+"ele.value = 13538805451;"		//19
 	//		+"var ele = document.getElementById(\"obtainMobileAuthCode\");"+"ele.click();",
 			
 			"javascript:var ele = document.getElementById(\"LoginName\");"+"ele.value = 13538805451;"		//20
-			+"var ele = document.getElementById(\"a_CreateMobileCode\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"a_CreateMobileCode\");"+"ele.click();"+"something.used(window.location.href);",
 			
 			"javascript:var ele = document.getElementById(\"phone\");"+"ele.value = 13538805451;"		//21
-			+"var ele =document.getElementById(\"sendButton\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele =document.getElementById(\"sendButton\");"+"ele.click();"+"something.used(window.location.href);",
 			"",		//22
 			
 			"javascript:var ele = document.getElementById(\"txt_mobile\");"+"ele.value = 13538805451;"		//23
 			+"var ele =document.getElementById(\"txt_password1\");ele.value = 12342134;var ele = document.getElementById(\"submitSMS\");" +
-			"ele.click();var ele =document.getElementById(\"btnSendVCode\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			"ele.click();var ele =document.getElementById(\"btnSendVCode\");"+"ele.click();"+"something.used(window.location.href);",
 			
 			"javascript:var ele = document.getElementById(\"U_UserName\");"+"ele.value = 13538805451;"		//24
-			+"var ele =document.getElementById(\"imgbtn2\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele =document.getElementById(\"imgbtn2\");"+"ele.click();"+"something.used(window.location.href);",
 			
 			"javascript:var ele = document.getElementById(\"js-reg-mobile\");"+"ele.value = 13538805451;"		//25
-			+"var ele =document.getElementById(\"js-reg-getSmsCode\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele =document.getElementById(\"js-reg-getSmsCode\");"+"ele.click();"+"something.used(window.location.href);",
 			
 			"javascript:var ele = document.getElementById(\"username\");"+"ele.value = 13538805451;"		//26
-			+"var ele =document.getElementById(\"sendMessage\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",							
+			+"var ele =document.getElementById(\"sendMessage\");"+"ele.click();"+"something.used(window.location.href);",							
 			"javascript:var ele = document.getElementById(\"user_id_sms_txt\");"+"ele.value = 13538805451;"		//27
-			+"var ele =document.getElementById(\"sms_code_btn\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele =document.getElementById(\"sms_code_btn\");"+"ele.click();"+"something.used(window.location.href);",
 			"javascript:var ele = document.getElementById(\"mobile\");"+"ele.value = 13538805451;"		//28
-			+"var ele = document.getElementById(\"get_checkcode\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"get_checkcode\");"+"ele.click();"+"something.used(window.location.href);",
 			"javascript:var ele = document.getElementById(\"phone_num_input\");"+"ele.value = 13538805451;"		//29
-			+"var ele = document.getElementById(\"valid_code_btn\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"valid_code_btn\");"+"ele.click();"+"something.used(window.location.href);",
 			"javascript:var ele = document.getElementById(\"txt_mobile\");"+"ele.value = 13538805451;"		//30
-			+"var ele = document.getElementById(\"btnGetCode\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"btnGetCode\");"+"ele.click();"+"something.used(window.location.href);",
 			"javascript:var ele = document.getElementById(\"LoginName\");"+"ele.value = 13538805451;"		//31
-			+"var ele = document.getElementById(\"a_CreateMobileCode\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"a_CreateMobileCode\");"+"ele.click();"+"something.used(window.location.href);",
 			"javascript:var ele = document.getElementById(\"ContentPlaceHolder1_txtMobile\");"+"ele.value = 13538805451;"		//32
-			+"var ele = document.getElementById(\"getmcode\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"getmcode\");"+"ele.click();"+"something.used(window.location.href);",
 			"javascript:var ele = document.getElementById(\"txt_mobile\");"+"ele.value = 13538805451;"		//33
-			+"var ele = document.getElementById(\"btnSendVCode\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"btnSendVCode\");"+"ele.click();"+"something.used(window.location.href);",
 			"javascript:var ele = document.getElementById(\"U_UserName\");"+"ele.value = 13538805451;"		//34
-			+"var ele = document.getElementById(\"imgbtn2\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"imgbtn2\");"+"ele.click();"+"something.used(window.location.href);",
 			"javascript:var ele = document.getElementById(\"phoneReg\");"+"ele.value = 13538805451;"		//35
-			+"var ele = document.getElementById(\"getAuthcode\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"getAuthcode\");"+"ele.click();"+"something.used(window.location.href);",
 			"javascript:var ele = document.getElementById(\"txtact\");"+"ele.value = 13538805451;"		//36
-			+"var ele = document.getElementById(\"ImageButton1\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"ImageButton1\");"+"ele.click();"+"something.used(window.location.href);",
 			"javascript:var ele = document.getElementById(\"getMobile\");"+"ele.value = 13538805451;"		//37
-			+"var ele = document.getElementById(\"getcodebutton\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"getcodebutton\");"+"ele.click();"+"something.used(window.location.href);",
 			"javascript:var ele = document.getElementById(\"phone\");"+"ele.value = 13538805451;"		//38
-			+"var ele = document.getElementById(\"sendButton\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"sendButton\");"+"ele.click();"+"something.used(window.location.href);",
 			"javascript:var ele = document.getElementById(\"mobile\");"+"ele.value = 13538805451;"		//39
-			+"var ele = document.getElementById(\"get\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"get\");"+"ele.click();"+"something.used(window.location.href);",
 			"javascript:var ele = document.getElementById(\"phone\");"+"ele.value = 13538805451;"		//40
-			+"var ele = document.getElementById(\"getPhoneMsg\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"getPhoneMsg\");"+"ele.click();"+"something.used(window.location.href);",
 			"javascript:var ele = document.getElementById(\"phone\");"+"ele.value = 13538805451;"		//41
-			+"var ele = document.getElementById(\"sendButton\");"+"ele.click();"+"Javacsript:something.used(window.location.href);",
+			+"var ele = document.getElementById(\"sendButton\");"+"ele.click();"+"something.used(window.location.href);",
 			"var ele = document.getElementById(\"phoneNum\");"+"ele.value = 13538805451;"		//42
-			+"var ele = document.getElementById(\"HQDX_BTN\");"+"ele.click();"+"Javacsript:something.used(window.location.href);"		
+			+"var ele = document.getElementById(\"HQDX_BTN\");"+"ele.click();"+"something.used(window.location.href);",
+			""
 	};
 	public String url[] = {
 			"http://www.souche.com/pages/minilogin.html",		//1
@@ -164,6 +165,7 @@ public class Data {
 			"http://reg.jiayuan.com/signup/fillbasic.php?",		//39
 			"http://www.139talk.com/register.html",		//40
 			"http://wap.12580call.cn/wap/reg.act",		//41
-			"http://reg.ztgame.com/registe/reg_phone.jsp"		//42
+			"http://reg.ztgame.com/registe/reg_phone.jsp",		//42
+			""
 	};
 }

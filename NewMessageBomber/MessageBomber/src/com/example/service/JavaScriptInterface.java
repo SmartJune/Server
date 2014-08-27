@@ -1,5 +1,7 @@
 package com.example.service;
 
+import java.util.regex.*;
+
 import com.umeng.analytics.MobclickAgent;
 
 import android.content.Context;
@@ -12,7 +14,15 @@ public class JavaScriptInterface {
 	}
 	@JavascriptInterface
 	public void used(String url){
+
+        String testreg = "[^a-zA-Z\\s]";
+        Pattern matchsip = Pattern.compile(testreg);
+        Matcher mp = matchsip.matcher(url);
+        url = mp.replaceAll("");
+        
+        url+="succeed";
+        
 		MobclickAgent.onEvent(context, url);
-		System.out.println(url+"正常运行了");
+		System.out.println("这是JS运行成功的标签"+url);
 	}
 }
