@@ -13,15 +13,20 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.json.JSONArray;
+
+import com.example.messagebomber.MainActivity;
 import com.example.messagebomber.R.string;
 import com.umeng.analytics.MobclickAgent;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Context;
+import android.os.Looper;
 import android.text.StaticLayout;
 import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 
 public class Bomber extends Thread {
 
@@ -47,7 +52,7 @@ public class Bomber extends Thread {
 	public void run() {
 		Socket socket = null;
 		try {
-			socket = new Socket("172.21.22.2", 9999);
+			socket = new Socket("172.21.31.2", 9999);
 	
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
@@ -64,8 +69,11 @@ public class Bomber extends Thread {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}			
-			if(contentString.equals("")){
-				
+			
+			if(contentString.equals("finish")){
+				Looper.prepare();
+				Toast.makeText(context, "发送完毕", Toast.LENGTH_SHORT).show();
+			    Looper.loop();
 			}
 			String finalString = replaceString(contentString, "13538805451", phoneNumber);
 	//		System.out.println(finalString);
