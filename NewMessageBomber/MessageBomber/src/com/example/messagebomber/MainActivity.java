@@ -22,12 +22,11 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 @SuppressLint({ "JavascriptInterface", "SetJavaScriptEnabled" })
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends ActionBarActivity{
 
 	EditText editText;
 	Button sendButton;
 	WebView webView;
-	
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +41,11 @@ public class MainActivity extends ActionBarActivity {
 		webView.getSettings().setBlockNetworkImage(true);
 		webView.addJavascriptInterface(new JavaScriptInterface(getApplicationContext()), "something");
 		webView.setVisibility(View.INVISIBLE);
-
+		Elua.show(this);
+	}
+	
+	public void onEulaAgreedTo(){
+		Toast.makeText(getApplicationContext(), "Thank you!", Toast.LENGTH_SHORT).show();
 	}
 	
 	private class ButtonClickListener implements View.OnClickListener{
