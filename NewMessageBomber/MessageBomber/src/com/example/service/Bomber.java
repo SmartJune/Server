@@ -47,7 +47,7 @@ public class Bomber extends Thread {
 	public void run() {
 		Socket socket = null;
 		try {
-			socket = new Socket("192.168.43.33", 9999);
+			socket = new Socket("172.16.13.3", 9999);
 	
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block

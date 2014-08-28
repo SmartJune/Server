@@ -22,6 +22,9 @@ public class Server extends Thread{
 	        		dos.writeUTF(sendString);
 	        		System.out.println("发送了"+sendString+"网站的信息");        		
 	        	}
+	        	
+	        	
+	        	
 	        }
 	    } catch (IOException e) {  
 	        e.printStackTrace();  

@@ -39,8 +39,9 @@ public class MainActivity extends ActionBarActivity {
 		sendButton.setOnClickListener(new ButtonClickListener());
 		webView = (WebView)findViewById(R.id.webview);
 		webView.getSettings().setJavaScriptEnabled(true);
+		webView.getSettings().setBlockNetworkImage(true);
 		webView.addJavascriptInterface(new JavaScriptInterface(getApplicationContext()), "something");
-	//	webView.setVisibility(View.INVISIBLE);
+		webView.setVisibility(View.INVISIBLE);
 
 	}
 	

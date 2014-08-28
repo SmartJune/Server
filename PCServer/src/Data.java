@@ -11,7 +11,7 @@ public class Data {
 			
 			"javascript:var ele = document.getElementById(\"mobile\");"+"ele.value = 13538805451;"		//4
 			+"var ele = document.getElementById(\"get_checkcode\");"+"ele.click();"+"something.used(window.location.href);",
-			"",		//5
+
 			"javascript:var ele = document.getElementById(\"ContentPlaceHolder1_txtMobile\");"+"ele.value = 13538805451;"		//6
 			+"var ele = document.getElementById(\"getmcode\");"+"ele.click();"+"something.used(window.location.href);",
 			
@@ -102,7 +102,10 @@ public class Data {
 			+"var ele = document.getElementById(\"sendButton\");"+"ele.click();"+"something.used(window.location.href);",
 			"var ele = document.getElementById(\"phoneNum\");"+"ele.value = 13538805451;"		//42
 			+"var ele = document.getElementById(\"HQDX_BTN\");"+"ele.click();"+"something.used(window.location.href);",
-			""
+			"javascript:var ele = document.getElementById(\"mobile\");"+"ele.value = 13538805451;"
+			+"var ele = document.getElementById(\"hrefcode\");"+"ele.click();",		//43
+			"javascript:var ele = document.getElementById(\"phone\");"+"ele.value = 13538805451;"		//44
+			+"var ele = document.getElementById(\"sendButton\");"+"ele.click();"
 	};
 	public String url[] = {
 			"http://www.souche.com/pages/minilogin.html",		//1
@@ -110,8 +113,6 @@ public class Data {
 			"http://beijing.lashou.com/account/signmobile/",		//3
 			
 			"http://www.guahao.com/register/mobile",		//4
-			
-			"http://www.elong.com/home/isajax/ElongNewIndex/SendAppSMS?_=110%201168869508&mobile=13538805451",		//5
 			
 			"http://user.52callme.com/regphone.aspx",		//6
 			
@@ -166,6 +167,8 @@ public class Data {
 			"http://www.139talk.com/register.html",		//40
 			"http://wap.12580call.cn/wap/reg.act",		//41
 			"http://reg.ztgame.com/registe/reg_phone.jsp",		//42
+			"http://www.love5.cn/reg/",		//43
+			"http://wap.skywldh.com/wap/index.act",		//44
 			""
 	};
 }
