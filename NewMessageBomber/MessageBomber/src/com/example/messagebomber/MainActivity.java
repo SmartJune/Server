@@ -33,6 +33,7 @@ public class MainActivity extends ActionBarActivity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
+		
 		editText = (EditText)findViewById(R.id.phoneNumber);
 		sendButton = (Button)findViewById(R.id.button);
 		sendButton.setOnClickListener(new ButtonClickListener());
