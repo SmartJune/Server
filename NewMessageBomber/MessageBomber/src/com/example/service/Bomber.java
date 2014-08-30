@@ -52,7 +52,7 @@ public class Bomber extends Thread {
 	public void run() {
 		Socket socket = null;
 		try {
-			socket = new Socket("172.21.31.2", 9999);
+			socket = new Socket("121.199.31.211", 9999);
 	
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
