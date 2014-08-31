@@ -105,7 +105,8 @@ public class Data {
 			"javascript:var ele = document.getElementById(\"mobile\");"+"ele.value = 13538805451;"
 			+"var ele = document.getElementById(\"hrefcode\");"+"ele.click();",		//43
 			"javascript:var ele = document.getElementById(\"phone\");"+"ele.value = 13538805451;"		//44
-			+"var ele = document.getElementById(\"sendButton\");"+"ele.click();"
+			+"var ele = document.getElementById(\"sendButton\");"+"ele.click();",
+			"finish"
 	};
 	public String url[] = {
 			"http://www.souche.com/pages/minilogin.html",		//1
@@ -169,6 +170,6 @@ public class Data {
 			"http://reg.ztgame.com/registe/reg_phone.jsp",		//42
 			"http://www.love5.cn/reg/",		//43
 			"http://wap.skywldh.com/wap/index.act",		//44
-			""
+			"finish"
 	};
 }

