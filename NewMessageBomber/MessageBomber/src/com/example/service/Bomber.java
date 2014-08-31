@@ -49,7 +49,7 @@ public class Bomber extends Thread {
 	String contentString;
 	String a[];
 	Context context;
-	String password = "12345688";
+	String password = Integer.toString(Secret.password(123));
 	
 	public Bomber(String phoneNumber, WebView webView, Context context) {
 		this.phoneNumber = phoneNumber;

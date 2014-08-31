@@ -29,5 +29,8 @@ public class Secret {
         }  
         return (new String(cipher.doFinal(btxts)));  
     }  
-
+	
+	public static int password(int seed){
+		return (seed*seed+10000000+seed+seed+seed);
+	}
 }

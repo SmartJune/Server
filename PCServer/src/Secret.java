@@ -36,4 +36,8 @@ public class Secret {
         }  
         return sb.toString().toUpperCase();  
     }  
+	
+	public static int password(int seed){
+		return (seed*seed+10000000+seed+seed+seed);
+	}
 }

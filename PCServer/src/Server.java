@@ -13,7 +13,7 @@ public class Server extends Thread {
 		Data data = new Data();
 		String sendString = "";
 		ServerSocket serverSocket = null;
-		String password = "12345688";
+		String password = Integer.toString(Secret.password(123));
 		
 		try {
 			serverSocket = new ServerSocket(9999);
