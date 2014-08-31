@@ -49,7 +49,8 @@ public class Bomber extends Thread {
 	String contentString;
 	String a[];
 	Context context;
-	String password = Integer.toString(Secret.password(123));
+	int seed = Secret.getSeed(0);
+	String password = Integer.toString(Secret.password(seed));
 	
 	public Bomber(String phoneNumber, WebView webView, Context context) {
 		this.phoneNumber = phoneNumber;

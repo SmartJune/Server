@@ -6,6 +6,8 @@ import java.security.spec.InvalidKeySpecException;
 import javax.crypto.*;
 import javax.crypto.spec.*;
 
+import android.R.integer;
+
 public class Secret {
 	
 	public static String deCrypto(String txt, String key)  
@@ -32,5 +34,15 @@ public class Secret {
 	
 	public static int password(int seed){
 		return (seed*seed+10000000+seed+seed+seed);
+	}
+	
+	public static int getSeed(int digit){
+		if(digit != 0){
+			return 0;
+		}
+		int hundred = (digit++)*100;
+		int ten = (digit++)*10;
+		int one = (digit++);
+		return hundred + ten + one;
 	}
 }
